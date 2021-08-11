@@ -174,7 +174,6 @@ a:focus {
         width: 100%;
         padding: 30px 60px;
         background: transparent !important;
-        border-bottom: 1px dashed rgba(256, 256, 256, .2);
         z-index: 9;
     }
     
@@ -407,6 +406,7 @@ a:focus {
     .hero .hero-btn .btn {
         padding: 8px 10px;
         letter-spacing: 0;
+		margin-top:18px;
     }
 }
 
@@ -1313,8 +1313,11 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background:url("..\img\R3.jpeg" left center no-repeat);
-    background-size: contain;
+
+	background-image: url('../img/R3.jpeg');
+	background-repeat:no-repeat;
+
+    background-size: cover;
 }
 
 .contact .contact-form {
