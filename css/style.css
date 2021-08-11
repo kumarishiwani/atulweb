@@ -1309,11 +1309,11 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-     background: linear-gradient(#117a8b, rgba(239, 35, 60, .95));
+     background:#117a8b;
 }
 
 .contact .container-fluid {
-    background:url("../img/R3.jpeg" left center no-repeat);
+    background:url("..\img\R3.jpeg" left center no-repeat);
     background-size: contain;
 }
 
