@@ -504,10 +504,12 @@ a:focus {
 
 .about .about-text p {
     font-size: 16px;
+	color:black;
 }
 
 .about .skills {
     margin-bottom: 30px;
+	color:black;
 }
 
 .about .skill-name {
