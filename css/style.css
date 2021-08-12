@@ -13,7 +13,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #414141;
+    color: #0F7A8B;
 }
 
 a {
@@ -57,7 +57,7 @@ a:focus {
     color: #117a8b;
     background: transparent;
     box-shadow: inset 0 0 0 0 #117a8b;
-    border-color: #EF233C;
+    border-color: #117a8b;
 }
 
 #loader {
@@ -1320,7 +1320,7 @@ background: url(../img/R3.jpeg) left center no-repeat;
 	
 	background-repeat:no-repeat;
 
-    background-size: cover;
+
 }
 
 .contact .contact-form {
