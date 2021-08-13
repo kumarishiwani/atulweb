@@ -430,6 +430,7 @@ a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
    color:#000;
+   margin-top:20px;
 }
 
 .section-header p::before {
@@ -1171,9 +1172,7 @@ a:focus {
     margin-right: 5px;
 }
 
-.team .team-item:hover {
-    box-shadow: inset 800px 0 0 0 #117a8b;
-}
+
 
 .team .team-item:hover .team-img img {
     transform: scale(1.2);
@@ -1311,7 +1310,7 @@ a:focus {
 .contact {
     position: relative;
     width: 100%;
-    margin: 45px 0;
+   
      background:#117a8b;
 }
 
@@ -1473,7 +1472,7 @@ background: url(../img/R3.jpeg) left center no-repeat;
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
+    margin-top: 10px;
     background: linear-gradient(#117a8b, rgba(239, 35, 60, .95));
 }
 
