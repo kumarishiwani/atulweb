@@ -51,6 +51,7 @@ a:focus {
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
+	margin-left: 200px;
 }
 
 .btn:hover {
@@ -1232,11 +1233,12 @@ a:focus {
 .testimonial .testimonial-icon {
     margin-bottom: 45px;
     text-align: center;
+	
 }
 
-.testimonial .testimonial-icon i {
-    font-size: 60px;
-    color: rgba(256, 256, 256, .5);
+.testimonial .testimonial-icon h1 {
+ 
+    color:white;
 }
 
 .testimonial .testimonial-item {
@@ -1363,6 +1365,7 @@ background: url(../img/R3.jpeg) left center no-repeat;
     color: #117a8b;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
+	margin-left:200px;
 }
 
 .contact .contact-form .btn:hover {
@@ -1370,6 +1373,7 @@ background: url(../img/R3.jpeg) left center no-repeat;
     background: transparent;
     box-shadow: inset 0 0 0 0 #ffffff;
     border-color: #ffffff;
+	
 }
 
 .contact .help-block ul {
@@ -1605,8 +1609,9 @@ color:#fff;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 100vh;
+  
     align-items: center
+	top-border: 2px solid blue;
 }
 .container1 .skills h1{
 	text-align:center;
@@ -1679,4 +1684,25 @@ margin-left: 33%;
 
     100% {
         z-index: 100;transform: rotate(315deg);}
+}
+
+
+
+}.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
 }
