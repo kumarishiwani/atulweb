@@ -17,7 +17,7 @@ h6 {
 }
 
 a {
-    color:blue;
+    color:#08f13b;
     transition: .3s;
 }
 
@@ -1600,3 +1600,54 @@ color:#fff;
         padding: 0 5px;
     }
 }
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    height: 100vh;
+    align-items: center
+}
+
+.progress {
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+   
+    text-align: center;
+    line-height: 200px;
+    margin: 20px
+}
+
+.progress::after {
+	content: "%";
+}
+
+.progress .title {position: relative;
+z-index: 100;}
+
+.progress .overlay {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.progress .left, .progress .right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+   
+    transform-origin: right;
+}
+
