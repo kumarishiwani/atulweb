@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #fff;
+    color:red;
     outline: none;
     text-decoration: none;
 }
@@ -1153,6 +1153,8 @@ a:focus {
 .testimonial .testimonial-item p {
     font-size: 18px;
     font-style: italic;
+	color:black;
+	margin-bottom:0rem;
 }
 
 .testimonial .testimonial-text h3 {
