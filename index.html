@@ -372,9 +372,6 @@
             </div>
         </div>-->
         <!-- Banner End -->
-        
-        
-       
 </div>
         <!-- Testimonial Start -->
         <div class="testimonial wow fadeInUp" data-wow-delay="0.1s" id="Testimonial">
@@ -483,11 +480,9 @@
         
         <!-- Back to top button -->
         <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
-		
+		<div id="WAButton"></div>
 
-<a href="https://api.whatsapp.com/send?phone=8789499804&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
-</a>
+
         <!-- Pre Loader -->
         <div id="loader" class="show">
             <div class="loader"></div>
@@ -511,5 +506,26 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+		<script type="text/javascript" src="js/floating-wpp.min.js"></script>
+
+		<script>
+    $(document).ready(function(){
+    	$(function() {
+			$('#WAButton').floatingWhatsApp({
+				phone: '+918789499804', //WhatsApp Business phone number International format-
+				headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+				popupMessage: 'Hello, how can we help you?', //Popup Message
+				showPopup: false, //Enables popup display
+				buttonImage: '<img src="img/whatsapp.jpeg" />', //Button Image
+				//headerColor: 'crimson', //Custom header color	
+				//backgroundColor: 'crimson', //Custom background button color
+				position: "right"    
+			});
+      
+		});
+    })
+    
+    </script>
+
     </body>
 </html>
