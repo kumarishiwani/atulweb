@@ -20,8 +20,10 @@
     $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
             $('.back-to-top').fadeIn('slow');
+			$('#WAButton').removeClass('initial');
         } else {
             $('.back-to-top').fadeOut('slow');
+			$('#WAButton').addClass('initial');
         }
     });
     $('.back-to-top').click(function () {
